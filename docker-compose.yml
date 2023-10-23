@@ -2,10 +2,10 @@ version: '3'
 
 services:
   mysql:
-    container_name: spring_batch
+    container_name: spring_batch2
     image: mysql/mysql-server:8.0
     environment:
-      MYSQL_DATABASE: "spring_batch"
+      MYSQL_DATABASE: "spring_batch2"
       MYSQL_PASSWORD: "password1234"
       TZ: "Asia/Seoul"
     ports:
